@@ -1,0 +1,38 @@
+Difference between props and state
+
+Props:
+
+Immutable (Read-Only):
+Props are passed from a parent component to a child component, and they are immutable (read-only) within the child component.
+The child component cannot modify the values received through props.
+
+
+Parent to Child Communication:
+Props are used for communication between a parent component and its child components.
+Data flows from parent to child components.
+
+
+Function Parameters:
+Props are similar to function parameters. They are passed to a component when it is created and cannot be modified by the component itself.
+
+
+External Input:
+Props are external inputs to a component. They are defined by the parent and provide a way for the parent to influence the child component.
+
+State:
+
+
+Mutable (Can be Modified):
+State is used to represent the internal state of a component, and it is mutable (can be modified) within the component.
+
+
+Component's Own Data:
+State is used for managing and updating data within a component. It represents the current state of the component and can change over time.
+
+
+Set by Component Itself:
+State is set and updated within the component using the useState hook or the this.setState method (for class components).
+
+
+Local to Component:
+State is local to a component and is not directly accessible by other components. It is encapsulated within the component that owns it.
